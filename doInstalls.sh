@@ -1,5 +1,6 @@
 #!/bin/zsh
 
+# Make a .zshrc file if there isn't one already. The NVM install will use this at least.
 [[ -f !/.zshrc ]] || touch ~/.zshrc
 
 printf "** David's dev tools installer for a new Mac\n** It is restartable: re-run anytime to add just the missing tools\n\n"
